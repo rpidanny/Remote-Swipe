@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Network Settings" >
+        <EditTextPreference 
+            	android:title="Ip Address" 
+            	android:summary="Set the IP address of the Host Computer." 
+            	android:key="prefIpaddress"/>
+        <EditTextPreference 
+            	android:title="PORT" 
+            	android:summary="Set the PORT Number." 
+            	android:key="prefPort"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Swipe Settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefVibrate"
+            android:title="Vibrate"
+            android:summary="Enable/Disable Vibrator." >
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+</PreferenceScreen>
